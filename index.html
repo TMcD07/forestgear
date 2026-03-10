@@ -14,6 +14,20 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
 
+    <!-- Slicknav Support links -->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script>src"stylesheet" href = </script>
+
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('#nav_menu').slicknav({ prependTo: "#mobilemenu" });
+        });
+    </script>
+
+
+    <link rel="stylesheet" href="styles/slicknav.css">
     <link rel="stylesheet" href="styles/main.css">
 
     <title>FORESTGEAR</title>
@@ -23,7 +37,11 @@
     <main>
         <section class="hero">
             <header>
-               <a href="index.html"> <img class="logoimage" src="images/logo.png" alt="Forest Gear Homepage" title="Forest Gear Homepage"></a>
+                <a href="index.html"> <img class="logoimage" src="images/logo.png" alt="Forest Gear Homepage"
+                        title="Forest Gear Homepage"></a>
+
+                    <!-- mobile menu nav tags -->
+                    <nav> id = mobilemenu</nav>
                 <nav id="nav_menu">
                     <ul>
                         <li><a href="index.html">Home</a></li>
@@ -78,7 +96,8 @@
         </div>
 
         <!-- Return to top button -->
-        <button id="cornerbtn" class="return-to-top" title="return to top" onclick="topFunction()"><img src="images/back-to-top-icon-png-7.jpg" alt=""></button>
+        <button id="cornerbtn" class="return-to-top" title="return to top" onclick="topFunction()"><img
+                src="images/back-to-top-icon-png-7.jpg" alt=""></button>
 
         <footer>
             <p>&copy; <span id="copyrightyear"></span> Travis McDonald Productions</p>
